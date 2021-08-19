@@ -1,4 +1,4 @@
-# CROWE
+# Untitled
 
 Customer Portal -Add to Cart
 
@@ -12,7 +12,7 @@ FD\_CMA112401\_CustPortal\_AddToCart
         <p>Review of Functional Design</p>
       </th>
       <th style="text-align:left">
-        <img src=".gitbook/assets/0 (2).png" alt/>
+        <img src=".gitbook/assets/0 (3).png" alt/>
       </th>
     </tr>
   </thead>
@@ -23,15 +23,15 @@ FD\_CMA112401\_CustPortal\_AddToCart
         <p>New functionality within Customer Portal for placing sales order</p>
       </td>
       <td style="text-align:left">
-        <img src=".gitbook/assets/1 (3).png" alt/>
+        <img src=".gitbook/assets/1 (2).png" alt/>
       </td>
     </tr>
   </tbody>
 </table>
 
-![](.gitbook/assets/2%20%282%29.png)
+![](.gitbook/assets/2%20%283%29.png)
 
-![](.gitbook/assets/3%20%282%29.png)
+![](.gitbook/assets/3%20%283%29.png)
 
 ## Document Owners
 
@@ -166,7 +166,7 @@ Add ‘CMA Customer Portal’ menu item
 
 * * _Sales and marketing &gt; Setup &gt; CMA Customer Portal_ 
 
-![](.gitbook/assets/4%20%283%29.png)
+![](.gitbook/assets/4%20%282%29.png)
 
 On the ‘General’ tab add below:
 
@@ -218,7 +218,7 @@ On the ‘General’ tab add below:
   </tbody>
 </table>
 
-![](.gitbook/assets/5%20%282%29.png)
+![](.gitbook/assets/5%20%283%29.png)
 
 ### CMA Customer Portal – Create Order
 
@@ -228,7 +228,7 @@ On the ‘General’ tab add below:
 
 Add description of _**“Place sales order”**_
 
-![](.gitbook/assets/6%20%283%29.png)
+![](.gitbook/assets/6%20%282%29.png)
 
 ### CMA Customer Portal – Create new ‘Cart’ page
 
@@ -259,7 +259,7 @@ Create ‘PRODUCTS’ grid
 
 **Add** ‘Place Order’ button
 
-![](.gitbook/assets/7%20%282%29.png)
+![](.gitbook/assets/7%20%283%29.png)
 
 ### ‘Online Inventory’ logic
 
@@ -270,17 +270,17 @@ Add ‘Cart’ option
 **THEN** prompt ‘Quantity’ form  
 
 
-![](.gitbook/assets/8%20%283%29.png)
+![](.gitbook/assets/8%20%282%29.png)
 
 **AND** select ‘Submit’ to create CMA Customer Portal ‘Cart’ record
 
-![](.gitbook/assets/9%20%282%29.png)
+![](.gitbook/assets/9%20%283%29.png)
 
 ### **CMA Customer Portal – ‘Create Order’ Updates**
 
 #### **‘Order Information’ page – Updates**
 
-![](.gitbook/assets/10%20%283%29.png)
+![](.gitbook/assets/10%20%282%29.png)
 
 **NAVIGATE: Homepage &gt; Create Order**
 
@@ -313,11 +313,11 @@ Add following fields to display from selected ‘Delivery address’
 
 * 1. LOOKUP D365’s ‘Customer account’ addresses with ‘Purpose’ = **Delivery**
 
-![](.gitbook/assets/11%20%282%29.png)
+![](.gitbook/assets/11%20%283%29.png)
 
 #### **‘Items’ page – Updates**
 
-![](.gitbook/assets/12%20%282%29.png)
+![](.gitbook/assets/12%20%283%29.png)
 
 1. **Remove** ‘Line status’
 2. **Remove** ‘Total amount’
@@ -327,7 +327,7 @@ Add following fields to display from selected ‘Delivery address’
 4. **Add** ‘Notes’
 5. **‘Add items’ function changes:**
 
-![](.gitbook/assets/13%20%283%29.png)
+![](.gitbook/assets/13%20%282%29.png)
 
 * 1. **Lookup records** form changes
      1. **Add** filters for:
@@ -335,7 +335,7 @@ Add following fields to display from selected ‘Delivery address’
         2. ‘Commodity’
         3. ‘Grade/Alloy’
 
-           ![](.gitbook/assets/14%20%283%29.png)
+           ![](.gitbook/assets/14%20%282%29.png)
 
 #### Review and Submit – Updates
 
@@ -356,11 +356,11 @@ Add following fields to display from selected ‘Delivery address’
 5. **Add** ‘Place Order’ button
    1. _Disable_ when blank or $0 price is populated
 
-![](.gitbook/assets/15%20%282%29.png)
+![](.gitbook/assets/15%20%283%29.png)
 
 _NOTE: Unable to provide screenshots due to below error – Update required following resolution of error when selecing ‘Next’ on the ‘Order Information’_
 
-![](.gitbook/assets/16%20%283%29.png)
+![](.gitbook/assets/16%20%282%29.png)
 
 #### ‘Create order’ logic
 
@@ -390,7 +390,7 @@ MSFT ‘Create order’ logic when user accesses ‘Review and submit’ page, D
   * SalesLine\_cmaPriceUOM
   * SalesLine\_cmaNetAmount
 
-![](.gitbook/assets/17%20%282%29.png)
+![](.gitbook/assets/17%20%283%29.png)
 
 #### ‘Place order’ button
 
@@ -400,7 +400,7 @@ MSFT ‘Create order’ logic when user accesses ‘Review and submit’ page, D
 
 **ELSE** disable ‘Place order’ button
 
-![](.gitbook/assets/18%20%282%29.png)
+![](.gitbook/assets/18%20%283%29.png)
 
 ####  ‘Place order’ execution logic
 
